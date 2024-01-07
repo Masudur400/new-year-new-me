@@ -240,19 +240,45 @@
 
  .contact {
      color: #FFF;
-     font-size: 16px; 
+     font-size: 16px;
      line-height: 46px;
      /* 162.5% */
  }
+
  .footer-img a {
-    text-align:left;
-    padding-right: 30px;
-    
+     text-align: left;
+     padding-right: 30px;
+
  }
 
- .footer-submit {
+ .footer-information {
      width: 50%;
      text-align: left;
      margin: 40px 100px;
 
+ }
+
+ .footer-info-heading {
+
+     font-size: 25px;
+ }
+
+ .footer-info-email input  {
+    margin-top: 30px;
+    padding: 10px 35px;
+    color: white;
+    font-size: 17px;
+    background-color:#151414;
+    border:1px solid white;
+    border-radius:5px; 
+ }
+
+ .footer-sub{
+    margin-top:30px;
+    background-color:#005FAC;
+    color: white;
+    font-size:20px;
+    padding:10px 23px;
+    border-radius:5px;
+    border: 0;
  }
